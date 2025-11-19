@@ -2,7 +2,8 @@ backend:
   name: github
   repo: brunoaveloso/brunoaveloso.github.io   # <-- seu repositório
   branch: main                            # ou "master" se for o caso
-  auth_type: implicit
+  base_url: https://github.com
+  auth_type: oauth
   app_id: Ov23livvE05IDgVfXSQu
 
 
