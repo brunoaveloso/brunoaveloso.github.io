@@ -1,0 +1,71 @@
+media:
+  # define onde os arquivos (imagens) serão salvos
+  input: "assets/uploads"
+  output: "/assets/uploads"
+
+content:
+  - name: posts
+    label: "Posts"
+    type: collection
+    path: "_posts"
+    filename: "{year}-{month}-{day}-{primary}.md"
+    format: "yaml-frontmatter"
+    view:
+      fields: [ title, date ]
+      primary: title
+      sort: [ date ]
+      default:
+        order: desc
+    fields:
+      - name: title
+        label: "Título"
+        type: string
+        required: true
+      - name: date
+        label: "Data"
+        type: date
+        required: true
+      - name: author
+        label: "Autor"
+        type: string
+      - name: excerpt
+        label: "Resumo"
+        type: text
+      - name: body
+        label: "Conteúdo"
+        type: rich-text
+      - name: image
+        label: "Imagem destacada"
+        type: image
+
+  - name: team
+    label: "Equipe"
+    type: file
+    path: "_data/team.yml"
+    format: "yaml"
+    fields:
+      - name: name
+        label: "Nome"
+        type: string
+        required: true
+      - name: role
+        label: "Função / Cargo"
+        type: string
+      - name: avatar
+        label: "Foto (URL ou upload)"
+        type: image
+      - name: tags
+        label: "Tags"
+        type: text
+        list: true
+      - name: links
+        label: "Links (Lattes, ORCID, etc.)"
+        type: object
+        list: true
+        fields:
+          - name: label
+            label: "Tipo de link"
+            type: string
+          - name: url
+            label: "URL"
+            type: string
