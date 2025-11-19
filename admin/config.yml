@@ -2,6 +2,9 @@ backend:
   name: github
   repo: brunoaveloso/brunoaveloso.github.io   # <-- seu repositório
   branch: main                            # ou "master" se for o caso
+  auth_type: implicit
+  app_id: Ov23livvE05IDgVfXSQu
+
 
 media_folder: "assets/uploads"            # Onde os arquivos enviados serão armazenados
 public_folder: "/assets/uploads"          # URL pública para acessar as mídias
