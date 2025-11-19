@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-11-18T21:19:58-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Título da Notícia</title><link href="http://localhost:4000/pesquisa/2025/11/18/Teste1.html" rel="alternate" type="text/html" title="Título da Notícia" /><published>2025-11-18T00:00:00-03:00</published><updated>2025-11-18T00:00:00-03:00</updated><id>http://localhost:4000/pesquisa/2025/11/18/Teste1</id><content type="html" xml:base="http://localhost:4000/pesquisa/2025/11/18/Teste1.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lacinia lorem orci. Phasellus a velit eu ipsum fermentum mollis ac vitae neque. Nulla lacus velit, hendrerit eget euismod nec, blandit a libero. Sed lectus nunc, vulputate pellentesque aliquam a, euismod laoreet ligula. Etiam at magna vitae enim semper luctus sed id augue. Aenean blandit ut tellus a iaculis. Nulla eget orci id dolor aliquam porta elementum vitae quam. Nulla nisi eros, pretium at congue efficitur, gravida quis diam. Mauris ac scelerisque leo, eu dictum ante. Mauris tristique, purus non fringilla rhoncus, nisl dui blandit nunc, et commodo leo leo vitae dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce molestie nunc dui, ultrices pulvinar neque posuere id.</p>
+
+<p>Aenean dignissim commodo ipsum, in cursus ligula semper id. Quisque imperdiet, odio in blandit rutrum, neque ipsum suscipit neque, eu convallis neque eros ac lacus. Nullam facilisis velit vel nisi commodo pulvinar. Sed porta risus iaculis posuere commodo. Phasellus et nulla vel turpis pulvinar gravida. Ut fringilla consequat ante ac maximus. Nulla vulputate tempus metus a luctus. Donec eget massa quis velit ultrices aliquam. In eros sem, faucibus sit amet tristique id, volutpat sed urna.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat, ipsum vel porta commodo, massa sem vestibulum ipsum, facilisis fermentum nulla ipsum in nibh. Donec vel neque neque. Duis eros nibh, porttitor non laoreet eget, mollis vel orci. Aliquam id fermentum lorem. Aenean ut sagittis elit. Integer lobortis justo metus, ut pellentesque tortor eleifend pharetra. Pellentesque pretium placerat magna vel varius. Aenean viverra ante enim, eu porttitor turpis tincidunt sit amet. Phasellus finibus magna arcu, et interdum magna ornare et. Suspendisse in commodo elit. Maecenas ac ipsum porttitor, efficitur tortor a, ornare ligula. Sed bibendum at erat ut venenatis. Nulla lobortis enim sit amet mi auctor blandit.</p>
+
+<p>Fusce auctor, urna vel vulputate vulputate, est enim ultricies ex, ut fermentum massa massa at nisl. In nec commodo sem, sed egestas purus. Praesent blandit, est vel ultrices elementum, turpis lectus ornare orci, non feugiat elit elit et nibh. Nunc facilisis tincidunt maximus. Vivamus posuere lacus sed pretium pretium. Pellentesque vel augue interdum ligula tristique maximus. Aliquam erat volutpat. Suspendisse vel erat id leo auctor consequat porttitor ac est. Proin gravida erat at sapien viverra vestibulum. Sed porta sem sed odio rutrum, eu congue tellus ultricies. Vivamus non efficitur sem. Suspendisse consequat condimentum orci, non pretium diam molestie nec. Quisque consectetur enim non nulla pellentesque, non consectetur ante dignissim.</p>
+
+<p>Proin tincidunt at odio ut vestibulum. Mauris ultricies quis metus quis gravida. Ut semper posuere urna, quis pharetra erat sodales eget. Etiam fringilla velit at risus ultricies fermentum. Suspendisse malesuada, orci vitae molestie facilisis, nisl lectus imperdiet nunc, id malesuada ante libero nec erat. In facilisis sem et vestibulum tincidunt. Maecenas eget tellus sit amet tellus placerat eleifend et in ipsum. Aenean dignissim in nulla eu semper. In gravida tincidunt nibh sed ultrices. Morbi vel varius arcu, quis luctus diam. Suspendisse finibus euismod arcu. Nullam interdum urna in nisl tincidunt, vitae posuere magna tempus.</p>]]></content><author><name></name></author><category term="Pesquisa" /><summary type="html"><![CDATA[Breve resumo da notícia que aparecerá no card.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/posts/2025-11-19/imagem.jpg" /><media:content medium="image" url="http://localhost:4000/assets/posts/2025-11-19/imagem.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Título da Notícia</title><link href="http://localhost:4000/pesquisa/2025/11/18/Teste2.html" rel="alternate" type="text/html" title="Título da Notícia" /><published>2025-11-18T00:00:00-03:00</published><updated>2025-11-18T00:00:00-03:00</updated><id>http://localhost:4000/pesquisa/2025/11/18/Teste2</id><content type="html" xml:base="http://localhost:4000/pesquisa/2025/11/18/Teste2.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lacinia lorem orci. Phasellus a velit eu ipsum fermentum mollis ac vitae neque. Nulla lacus velit, hendrerit eget euismod nec, blandit a libero. Sed lectus nunc, vulputate pellentesque aliquam a, euismod laoreet ligula. Etiam at magna vitae enim semper luctus sed id augue. Aenean blandit ut tellus a iaculis. Nulla eget orci id dolor aliquam porta elementum vitae quam. Nulla nisi eros, pretium at congue efficitur, gravida quis diam. Mauris ac scelerisque leo, eu dictum ante. Mauris tristique, purus non fringilla rhoncus, nisl dui blandit nunc, et commodo leo leo vitae dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce molestie nunc dui, ultrices pulvinar neque posuere id.</p>
+
+<p>Aenean dignissim commodo ipsum, in cursus ligula semper id. Quisque imperdiet, odio in blandit rutrum, neque ipsum suscipit neque, eu convallis neque eros ac lacus. Nullam facilisis velit vel nisi commodo pulvinar. Sed porta risus iaculis posuere commodo. Phasellus et nulla vel turpis pulvinar gravida. Ut fringilla consequat ante ac maximus. Nulla vulputate tempus metus a luctus. Donec eget massa quis velit ultrices aliquam. In eros sem, faucibus sit amet tristique id, volutpat sed urna.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat, ipsum vel porta commodo, massa sem vestibulum ipsum, facilisis fermentum nulla ipsum in nibh. Donec vel neque neque. Duis eros nibh, porttitor non laoreet eget, mollis vel orci. Aliquam id fermentum lorem. Aenean ut sagittis elit. Integer lobortis justo metus, ut pellentesque tortor eleifend pharetra. Pellentesque pretium placerat magna vel varius. Aenean viverra ante enim, eu porttitor turpis tincidunt sit amet. Phasellus finibus magna arcu, et interdum magna ornare et. Suspendisse in commodo elit. Maecenas ac ipsum porttitor, efficitur tortor a, ornare ligula. Sed bibendum at erat ut venenatis. Nulla lobortis enim sit amet mi auctor blandit.</p>
+
+<p>Fusce auctor, urna vel vulputate vulputate, est enim ultricies ex, ut fermentum massa massa at nisl. In nec commodo sem, sed egestas purus. Praesent blandit, est vel ultrices elementum, turpis lectus ornare orci, non feugiat elit elit et nibh. Nunc facilisis tincidunt maximus. Vivamus posuere lacus sed pretium pretium. Pellentesque vel augue interdum ligula tristique maximus. Aliquam erat volutpat. Suspendisse vel erat id leo auctor consequat porttitor ac est. Proin gravida erat at sapien viverra vestibulum. Sed porta sem sed odio rutrum, eu congue tellus ultricies. Vivamus non efficitur sem. Suspendisse consequat condimentum orci, non pretium diam molestie nec. Quisque consectetur enim non nulla pellentesque, non consectetur ante dignissim.</p>
+
+<p>Proin tincidunt at odio ut vestibulum. Mauris ultricies quis metus quis gravida. Ut semper posuere urna, quis pharetra erat sodales eget. Etiam fringilla velit at risus ultricies fermentum. Suspendisse malesuada, orci vitae molestie facilisis, nisl lectus imperdiet nunc, id malesuada ante libero nec erat. In facilisis sem et vestibulum tincidunt. Maecenas eget tellus sit amet tellus placerat eleifend et in ipsum. Aenean dignissim in nulla eu semper. In gravida tincidunt nibh sed ultrices. Morbi vel varius arcu, quis luctus diam. Suspendisse finibus euismod arcu. Nullam interdum urna in nisl tincidunt, vitae posuere magna tempus.</p>]]></content><author><name></name></author><category term="Pesquisa" /><summary type="html"><![CDATA[Breve resumo da notícia que aparecerá no card.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/posts/2025-11-19/imagem.jpg" /><media:content medium="image" url="http://localhost:4000/assets/posts/2025-11-19/imagem.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">100 Anos da Mecânica Quântica</title><link href="http://localhost:4000/eventos/pesquisa/2025/11/18/100anos.html" rel="alternate" type="text/html" title="100 Anos da Mecânica Quântica" /><published>2025-11-18T00:00:00-03:00</published><updated>2025-11-18T00:00:00-03:00</updated><id>http://localhost:4000/eventos/pesquisa/2025/11/18/100anos</id><content type="html" xml:base="http://localhost:4000/eventos/pesquisa/2025/11/18/100anos.html"><![CDATA[<p>Já está disponível a gravação completa do evento online que celebrou o centenário da Mecânica Quântica, realizado pelo Instituto de Física de São Carlos da USP. Não perca a chance de assistir na íntegra às palestras do evento que foi uma homenagem à vida e à obra do físico visionário Dan Kleppner.</p>
+
+<p>O evento contou com a participação do Professor Bill Philipps, ganhador do Prêmio Nobel de 1997 pelo desenvolvimento de métodos para esfriar e prender átomos com luz laser e  foi seguida tivemos a apresentação do Professor Celso Villas-Bôas do grupo de pesquisa Quanta – UFSCar.</p>
+
+<p><a href="https://www.youtube.com/live/p_uP8FE3">https://www.youtube.com/live/p_uP8FE3</a></p>
+
+<p>#MecânicaQuântica #USP #SãoCarlos #Física #Ciência #EventoOnline #PalestrasGravadas #100AnosQuântica #Nobel #BillPhilipps #ResfriamentoALaser #Quanta #UFSCar</p>]]></content><author><name></name></author><category term="Eventos" /><category term="Pesquisa" /><summary type="html"><![CDATA[Breve resumo da notícia que aparecerá no card.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/posts/2025-11-18/qu%C3%A2ntica.webp" /><media:content medium="image" url="http://localhost:4000/assets/posts/2025-11-18/qu%C3%A2ntica.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Como Fazer Posts</title><link href="http://localhost:4000/admin/2025/11/18/como-fazer-posts.html" rel="alternate" type="text/html" title="Como Fazer Posts" /><published>2025-11-18T00:00:00-03:00</published><updated>2025-11-18T00:00:00-03:00</updated><id>http://localhost:4000/admin/2025/11/18/como-fazer-posts</id><content type="html" xml:base="http://localhost:4000/admin/2025/11/18/como-fazer-posts.html"><![CDATA[<p>Este guia explica rapidamente como criar novos posts no site, onde
+salvar arquivos e como estruturar imagens e conteúdo.</p>
+
+<hr />
+
+<h2 id="-estrutura-de-pastas">📁 Estrutura de Pastas</h2>
+
+<p>A estrutura atual relevante para posts é:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>_posts/
+└── AAAA-MM-DD/
+    └── como-fazer-posts.md
+assets/
+└── posts/
+    └── AAAA-MM-DD/
+        └── imagem.jpg
+</code></pre></div></div>
+
+<h3 id="-onde-ficam-os-posts">✔ Onde ficam os posts?</h3>
+
+<p>Todos os posts devem estar dentro da pasta:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>_posts/&lt;ano&gt;-&lt;mês&gt;-&lt;dia&gt;/
+</code></pre></div></div>
+
+<p>Exemplo:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>_posts/2025-11-18/meu-novo-post.md
+</code></pre></div></div>
+
+<h3 id="-onde-colocar-as-imagens">✔ Onde colocar as imagens?</h3>
+
+<p>Use a pasta:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>assets/posts/&lt;ano&gt;-&lt;mês&gt;-&lt;dia&gt;/
+</code></pre></div></div>
+
+<p>Assim cada post fica organizado por data.</p>
+
+<hr />
+
+<h2 id="-modelo-de-arquivo-markdown">📝 Modelo de Arquivo Markdown</h2>
+
+<p>Cada post deve começar com um bloco <em>front matter</em> igual a este:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">post</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Título</span><span class="nv"> </span><span class="s">do</span><span class="nv"> </span><span class="s">Post"</span>
+<span class="na">date</span><span class="pi">:</span> <span class="s">2025-11-18</span>
+<span class="na">categories</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">noticias</span><span class="pi">,</span> <span class="nv">outros</span><span class="pi">]</span>
+<span class="na">image</span><span class="pi">:</span> <span class="s2">"</span><span class="s">./assets/posts/2025-11-18/imagem.jpg"</span>
+<span class="na">excerpt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Resumo</span><span class="nv"> </span><span class="s">curto</span><span class="nv"> </span><span class="s">do</span><span class="nv"> </span><span class="s">post"</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<p>Depois disso, basta escrever normalmente em Markdown.</p>]]></content><author><name></name></author><category term="admin" /><summary type="html"><![CDATA[Breve explicação de como fazer um post no site]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/posts/2025-11-19/imagem.jpg" /><media:content medium="image" url="http://localhost:4000/assets/posts/2025-11-19/imagem.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

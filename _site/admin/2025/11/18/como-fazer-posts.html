@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como Fazer Posts - QUANTA UFSCar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/assets/academicons-1.9.4/css/academicons.min.css"/>
+    <link rel="stylesheet" href="/assets/font-awesome-4.7.0/css/font-awesome.min.css"/>
+    <link href="/assets/index.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <div class="header-container">
+        <div class="logo-section">
+            <a href="/" style="display: flex; align-items: center; gap: 1rem; text-decoration: none;">
+                <img src="/assets/logo.svg" alt="QUANTA UFSCar logo" width="48" height="48"/>
+                <div>
+                    <div class="logo-text-small">QUANTA</div>
+                    <div class="logo-text-large">QUANTA UFSCar</div>
+                </div>
+            </a>
+        </div>
+
+        <nav id="mainNav">
+            <a href="/#about">Sobre</a>
+            <a href="/#research">Pesquisa</a>
+            <a href="/#news">Notícias</a>
+            <a href="/#team">Equipe</a>
+            <a href="/#contact" class="nav-contact">Contato</a>
+        </nav>
+
+        <div class="mobile-menu" id="mobileMenuBtn">Menu</div>
+    </div>
+</header>
+
+    
+    <main>
+        <article class="post-page">
+    <div class="post-container">
+        <div class="post-hero">
+            
+            <div class="post-featured-image" style="background-image: url('http://localhost:4000/assets/posts/2025-11-19/imagem.jpg')"></div>
+            
+            
+            <div class="post-meta">
+                <time datetime="2025-11-18T00:00:00-03:00">
+                    18 de November de 2025
+                </time>
+                <div class="news-categories">
+                    
+                    <span class="news-category">admin</span>
+                    
+                </div>
+            </div>
+            
+            <h1 class="post-title">Como Fazer Posts</h1>
+        </div>
+        
+        <div class="post-content">
+            <p>Este guia explica rapidamente como criar novos posts no site, onde
+salvar arquivos e como estruturar imagens e conteúdo.</p>
+
+<hr />
+
+<h2 id="-estrutura-de-pastas">📁 Estrutura de Pastas</h2>
+
+<p>A estrutura atual relevante para posts é:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>_posts/
+└── AAAA-MM-DD/
+    └── como-fazer-posts.md
+assets/
+└── posts/
+    └── AAAA-MM-DD/
+        └── imagem.jpg
+</code></pre></div></div>
+
+<h3 id="-onde-ficam-os-posts">✔ Onde ficam os posts?</h3>
+
+<p>Todos os posts devem estar dentro da pasta:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>_posts/&lt;ano&gt;-&lt;mês&gt;-&lt;dia&gt;/
+</code></pre></div></div>
+
+<p>Exemplo:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>_posts/2025-11-18/meu-novo-post.md
+</code></pre></div></div>
+
+<h3 id="-onde-colocar-as-imagens">✔ Onde colocar as imagens?</h3>
+
+<p>Use a pasta:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>assets/posts/&lt;ano&gt;-&lt;mês&gt;-&lt;dia&gt;/
+</code></pre></div></div>
+
+<p>Assim cada post fica organizado por data.</p>
+
+<hr />
+
+<h2 id="-modelo-de-arquivo-markdown">📝 Modelo de Arquivo Markdown</h2>
+
+<p>Cada post deve começar com um bloco <em>front matter</em> igual a este:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">post</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Título</span><span class="nv"> </span><span class="s">do</span><span class="nv"> </span><span class="s">Post"</span>
+<span class="na">date</span><span class="pi">:</span> <span class="s">2025-11-18</span>
+<span class="na">categories</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">noticias</span><span class="pi">,</span> <span class="nv">outros</span><span class="pi">]</span>
+<span class="na">image</span><span class="pi">:</span> <span class="s2">"</span><span class="s">./assets/posts/2025-11-18/imagem.jpg"</span>
+<span class="na">excerpt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Resumo</span><span class="nv"> </span><span class="s">curto</span><span class="nv"> </span><span class="s">do</span><span class="nv"> </span><span class="s">post"</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<p>Depois disso, basta escrever normalmente em Markdown.</p>
+
+        </div>
+        
+        <div class="post-footer">
+            <a href="/blog.html" class="btn-secondary">← Voltar para notícias</a>
+        </div>
+    </div>
+</article>
+    </main>
+    
+    <footer id="contact">
+    <div class="section-container">
+        <div class="section-header" style="margin-bottom: 3rem;">
+            <h2 class="section-title" style="color: var(--white);">Entre em contato</h2>
+            <p class="section-subtitle" style="color: rgba(255, 255, 255, 0.8);">
+                Conecte-se conosco através de nossas redes e plataformas
+            </p>
+        </div>
+
+        <div class="contact-grid">
+            <!-- Informações de Contato -->
+            <div class="contact-info">
+                <h4 class="contact-subtitle">Informações</h4>
+                <ul class="contact-list">
+                    <li>
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <div>
+                            <strong>Email</strong>
+                            <a href="mailto:quanta@ufscar.br">quanta@ufscar.br</a>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <div>
+                            <strong>Localização</strong>
+                            <span>UFSCar — São Carlos, SP, Brasil</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Redes Sociais e Links -->
+            <div class="contact-links">
+                <h4 class="contact-subtitle">Siga-nos</h4>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/quantaufscar/" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                        <span>Instagram</span>
+                    </a>
+
+                    <a href="https://www.youtube.com/@QuantaUFSCar" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                        </svg>
+                        <span>YouTube</span>
+                    </a>
+<!-- 
+                    <a href="https://github.com/QuantaUFSCar" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                        <span>GitHub</span>
+                    </a> -->
+
+                    <a href="https://www.linkedin.com/company/quanta-ufscar/" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                        <span>LinkedIn</span>
+                    </a>
+
+                    <a href="https://linktr.ee/quantaufscar" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M7.953 15.066c-.08.163-.08.324-.08.486.08.517.528.897 1.052.89h1.294v4.776c0 .486-.404.89-.89.89H6.577a.898.898 0 0 1-.889-.891v-4.774H.992c-.728 0-1.214-.729-.89-1.377l6.96-12.627a1.065 1.065 0 0 1 1.863 0l2.913 5.585-3.885 7.042zm15.945 0-6.96-12.627a1.065 1.065 0 0 0-1.862 0l-2.995 5.586 3.885 7.04c.081.164.081.325.081.487-.08.517-.529.897-1.052.89h-1.296v4.776c.005.49.4.887.89.891h2.914a.9.9 0 0 0 .892-.89v-4.775h4.612c.73 0 1.214-.729.89-1.377z"/>
+                        </svg>
+                        <span>Linktree</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Recursos e Links Úteis -->
+            <div class="contact-resources">
+                <h4 class="contact-subtitle">Recursos</h4>
+                <ul class="resource-list">
+                    <li>
+                        <a href="https://quantaufscar.github.io/tutoriais/" target="_blank" rel="noopener noreferrer">
+                            Tutoriais
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/QuantaUFSCar" target="_blank" rel="noopener noreferrer">
+                            Repositórios no GitHub
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/@QuantaUFSCar" target="_blank" rel="noopener noreferrer">
+                            Vídeos e Palestras
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p class="footer-text">
+                © <span id="currentYear"></span> QUANTA UFSCar — Grupo de Estudos Avançados em Física Teórica
+            </p>
+            <p class="footer-subtext">
+                Departamento de Física, Universidade Federal de São Carlos
+            </p>
+        </div>
+    </div>
+</footer>
+    
+    <script src="/assets/index.js"></script>
+</body>
+</html>
