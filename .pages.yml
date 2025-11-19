@@ -1,0 +1,24 @@
+backend:
+  name: github
+  repo: brunoaveloso/QUANTA_UFSCar
+  branch: main
+  auth_endpoint: /cms/auth
+  base_url: https://brunoaveloso.github.io/cms/
+
+media_folder: assets/images/posts
+public_folder: /assets/images/posts
+
+collections:
+  - name: posts
+    label: Notícias
+    folder: _posts
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: Layout, name: layout, widget: hidden, default: post }
+      - { label: Título, name: title, widget: string }
+      - { label: Data, name: date, widget: datetime, format: "YYYY-MM-DD" }
+      - { label: Categorias, name: categories, widget: list, allow_add: true }
+      - { label: Imagem de Destaque, name: image, widget: image, required: false }
+      - { label: Resumo, name: excerpt, widget: text, required: false }
+      - { label: Conteúdo, name: body, widget: markdown }
