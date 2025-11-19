@@ -19,7 +19,7 @@ collections:
     description: "Editar a lista de integrantes do grupo"
     folder: "_data/team"
     create: true
-    extension: "md"
+    extension: "yml"
     slug: "{{slug}}"
     fields:
       - { label: "Nome", name: "name", widget: "string" }

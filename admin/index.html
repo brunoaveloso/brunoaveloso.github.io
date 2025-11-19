@@ -1,13 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
   <head>
     <meta charset="utf-8" />
     <title>Decap CMS</title>
-    <script src="https://cdn.jsdelivr.net/npm/decap-cms@latest/dist/decap-cms.js"></script>
+    <script src="https://unpkg.com/decap-cms@latest/dist/decap-cms.js"></script>
   </head>
   <body>
     <script>
-      CMS.init();
+      // Wait for CMS global to exist
+      window.addEventListener("load", () => {
+        if (window.CMS) {
+          window.CMS.init();
+        } else {
+          console.error("CMS not loaded!");
+        }
+      });
     </script>
   </body>
 </html>
