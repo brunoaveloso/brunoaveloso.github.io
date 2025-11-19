@@ -1,0 +1,40 @@
+backend:
+  name: github
+  repo: brunoaveloso/brunoaveloso.github.io   # <-- seu repositório
+  branch: main                            # ou "master" se for o caso
+
+media_folder: "assets/uploads"            # Onde os arquivos enviados serão armazenados
+public_folder: "/assets/uploads"          # URL pública para acessar as mídias
+
+site_url: "https://brunoaveloso.github.io"
+
+collections:
+  # --- COLEÇÃO: TEAM ---
+  - name: "team"
+    label: "Equipe"
+    label_singular: "Membro"
+    description: "Editar a lista de integrantes do grupo"
+    folder: "_data/team"
+    create: true
+    extension: "md"
+    slug: "{{slug}}"
+    fields:
+      - { label: "Nome", name: "name", widget: "string" }
+      - { label: "Função", name: "role", widget: "string" }
+      - { label: "Descrição", name: "bio", widget: "text" }
+      - { label: "Foto", name: "photo", widget: "image", required: false }
+
+  # --- COLEÇÃO: POSTS ---
+  - name: "posts"
+    label: "Posts"
+    label_singular: "Post"
+    folder: "posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    extension: "md"
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Data", name: "date", widget: "datetime" }
+      - { label: "Descrição curta", name: "description", widget: "string", required: false }
+      - { label: "Imagem destacada", name: "thumbnail", widget: "image", required: false }
+      - { label: "Corpo", name: "body", widget: "markdown" }
